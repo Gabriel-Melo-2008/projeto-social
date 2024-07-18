@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/*Modifica a margem e o padding de todos os elementos*/
 *{
     margin: 0px;
     padding: 0px;
@@ -23,6 +24,8 @@ main{
     position: relative;
 }
 
+/*Position: absolute; (deixa eu ajustar em esquerda e direita) 
+transform*/
 section#telefone{
     position: absolute;
     top: 50%;
@@ -32,4 +35,12 @@ section#telefone{
     height: 627px;
     width: 311px;
     background:url('../imagens/frame-iphone.png') no-repeat;
+}
+
+iframe#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    width: 269px; ;
+    height: 471px; ;
 }
